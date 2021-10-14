@@ -3,7 +3,6 @@ package Main;
 import CompraTipoDAO.CompraTipoDAO;
 import CompraTipo.CompraTipo;
 import Interface.Menu;
-import java.util.Scanner;
 
 public class Main {
 
