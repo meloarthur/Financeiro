@@ -6,6 +6,7 @@ public class CompraTipo {
     private String descricao;
     private int dias;
 
+    //Getters and Setters
     public int getCodigo() {
         return codigo;
     }
