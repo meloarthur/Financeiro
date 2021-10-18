@@ -6,6 +6,7 @@ import Interface.Menu;
 
 public class Main {
 
+    //Abrir menu
     public static void main(String[] args) {
 
         CompraTipo compra = new CompraTipo();
