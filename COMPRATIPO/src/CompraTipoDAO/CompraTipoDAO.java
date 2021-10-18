@@ -11,11 +11,12 @@ import javax.swing.JOptionPane;
 
 public class CompraTipoDAO {
     
-    //Função SQL: SELECT COM LISTA
+    //Função SQL: SELECT (mostrar tabela no banco de dados)
     public List<CompraTipo> read(){
         
         ConexaoBDEstoque conexaoBD = new ConexaoBDEstoque();
         Connection connect = conexaoBD.criarConexao();
+        
         PreparedStatement stmt = null;
         ResultSet result = null;
         List<CompraTipo> list = new ArrayList<>();
