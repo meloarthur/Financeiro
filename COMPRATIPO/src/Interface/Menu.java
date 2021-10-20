@@ -21,7 +21,7 @@ public class Menu extends javax.swing.JFrame {
         EntradaCodigo.requestFocus();
     }
     
-    //Criando na interface a tabela do banco de dados
+    //Criando a tabela do banco de dados na interface
     public void readJTCompraTipo(){
         
         DefaultTableModel modelo = (DefaultTableModel) JTCompraTipo.getModel();
